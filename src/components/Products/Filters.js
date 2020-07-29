@@ -18,7 +18,7 @@ const Filters = () => {
               type='text'
               id='search'
               name='search'
-              value={search.toLowerCase()}
+              value={search}
               onChange={updateFilters}
             />
           </div>

@@ -50,7 +50,10 @@ export default function ProductProvider({ children }) {
     }
     if (search !== '') {
       newProducts = newProducts.filter((item) => {
-        let title = item.title.trim().toLowerCase();
+        let title = item.title
+          .trim()
+          .toLowerCase()
+          .inludes(search.toLowerCase());
         return title.startsWith(search) ? item : null;
       });
     }
