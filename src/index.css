@@ -163,8 +163,8 @@ Header
 
 @media screen and (max-width: 370px) {
   .header a {
-    font-size: 0.9rem;
-    margin: 0 0.3rem;
+    font-size: 0.8rem;
+    margin: 0 0.35rem;
   }
 }
 
