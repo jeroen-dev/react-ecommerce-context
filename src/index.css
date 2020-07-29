@@ -137,7 +137,6 @@ Header
   padding: 1.4rem 0;
   border-bottom: 1px solid black;
   background-color: #92bfb1;
-  font-size: 1rem;
 }
 
 .header ul {
@@ -153,8 +152,8 @@ Header
 }
 .header a {
   text-transform: capitalize;
-  margin: 0 0.25rem;
-  font-size: 0.85rem;
+  margin: 0 0.4rem;
+  font-size: 1rem;
   font-weight: 600;
   transition: var(--mainTransition);
 }
