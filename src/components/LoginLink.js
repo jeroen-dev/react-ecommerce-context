@@ -10,7 +10,7 @@ export default function LoginLink() {
   if (user.token) {
     return (
       <button
-        style={{ fontWeight: '600', marginLeft: '1rem' }}
+        style={{ fontSize: '1rem', fontWeight: '600', marginLeft: '1rem' }}
         className='login-btn'
         onClick={() => {
           userLogout();
