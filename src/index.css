@@ -444,7 +444,7 @@ Cart Link
 }
 @media (max-width: 600px) {
   .cart-link-container {
-    margin-top: 3px;
+    margin-top: 2px;
   }
 }
 .cart-link-container a {
