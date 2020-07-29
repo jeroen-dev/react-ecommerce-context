@@ -53,7 +53,7 @@ export default function ProductProvider({ children }) {
         let title = item.title
           .trim()
           .toLowerCase()
-          .inludes(search.toLowerCase());
+          .includes(search.toLowerCase());
         return title.startsWith(search) ? item : null;
       });
     }
