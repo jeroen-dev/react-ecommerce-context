@@ -160,18 +160,20 @@ Header
 .header a:hover {
   color: var(--primaryColor);
 }
+
+@media screen and (max-width: 370px) {
+  .header a {
+    font-size: 0.6rem;
+    margin: 0 0.2rem;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .header a {
     font-size: 1.5rem;
     margin: 0 0.5rem;
   }
 
-  @media screen and (max-width: 370px) {
-    .header a {
-      font-size: 0.8rem;
-      margin: 0 0.3rem;
-    }
-  }
   .header ul {
     display: flex;
     justify-content: space-between;
