@@ -50,10 +50,8 @@ export default function ProductProvider({ children }) {
     }
     if (search !== '') {
       newProducts = newProducts.filter((item) => {
-        let title = item.title
-          .trim()
-          .toLowerCase()
-          .includes(search.toLowerCase());
+        let title = item.title.trim().toLowerCase();
+
         return title.startsWith(search) ? item : null;
       });
     }
