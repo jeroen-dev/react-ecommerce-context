@@ -442,11 +442,7 @@ Cart Link
 .cart-link-container {
   position: relative;
 }
-@media (max-width: 600px) {
-  .cart-link-container {
-    margin-top: 2px;
-  }
-}
+
 .cart-link-container a {
   margin-right: 10px;
   font-weight: bolder;
